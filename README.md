@@ -88,6 +88,6 @@ ue.sync_browser_to_assets(ue.get_assets(folderpath_))
 
 
 
-That file should give you an idea on how to interact with the Megascans LiveLink and UnrealEnginePython in general. If you have any questions feel free to check the UnrealEnginePython GitHub page or send a, email to adnan@quixel.se!
+That file should give you an idea on how to interact with the Megascans LiveLink and UnrealEnginePython in general. If you have any questions feel free to check the UnrealEnginePython GitHub page or send a, email to adnan at quixel.se!
 
 The Megascans LiveLink is hosted on GitHub under a GNU General Public License v3.0.
