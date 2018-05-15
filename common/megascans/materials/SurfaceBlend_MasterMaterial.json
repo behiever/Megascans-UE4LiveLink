@@ -1,0 +1,68 @@
+{
+  "BuildVersion": [
+    [
+      "4.21",
+      "4.20",
+      "4.19",
+      "4.18",
+      "4.17",
+      "4.16",
+      "4.15"
+    ],
+    0
+  ],
+  "MaterialConnections": [
+    "ms_BaseColor",
+    "ms_Roughness",
+    "ms_Normal",
+    "ms_WorldDisplacement",
+    "ms_TessellationMultiplier"
+  ],
+  "MaterialName": "SurfaceBlend_MasterMaterial",
+  "MaterialProperties": [
+    [
+      "ShadingModel",
+      1
+    ],
+    [
+      "MaterialDomain",
+      0
+    ],
+    [
+      "BlendMode",
+      0
+    ],
+    [
+      "DecalBlendMode",
+      0
+    ],
+    [
+      "TwoSided",
+      false
+    ],
+    [
+      "DitheredLODTransition",
+      false
+    ],
+    [
+      "bEnableAdaptiveTessellation",
+      false
+    ],
+    [
+      "bEnableCrackFreeDisplacement",
+      true
+    ],
+    [
+      "D3D11TessellationMode",
+      1
+    ],
+    [
+      "MaxDisplacement",
+      0.0
+    ],
+    [
+      "DitherOpacityMask",
+      false
+    ]
+  ]
+}

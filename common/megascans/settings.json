@@ -1,0 +1,132 @@
+{
+  "AutoFoliage": 0,
+  "BlendMaterial": 1,
+  "CustomMaterial": [
+    [
+      "Surface",
+      "Standard_MasterMaterial"
+    ],
+    [
+      "Atlas",
+      "Atlas_MasterMaterial"
+    ],
+    [
+      "3D Asset",
+      "Standard_MasterMaterial"
+    ],
+    [
+      "Decal",
+      "Decal_MasterMaterial"
+    ],
+    [
+      "Scatter 3D",
+      "Standard_MasterMaterial"
+    ],
+    [
+      "Displacement",
+      "Displacement_MasterMaterial"
+    ],
+    [
+      "Imperfection",
+      "Imperfection_MasterMaterial"
+    ],
+    [
+      "Brush",
+      "BrushDecal_MasterMaterial"
+    ],
+    [
+      "3D Plant",
+      "Foliage_MasterMaterial"
+    ],
+    [
+      "Metal",
+      "Standard_MasterMaterial"
+    ],
+    [
+      "Terrain Blend",
+      "SurfaceBlend_MasterMaterial"
+    ],
+    [
+      "Surface Blend A",
+      "SurfaceBlend_MasterMaterial"
+    ],
+    [
+      "Surface Blend B",
+      "SurfaceBlend_MasterMaterial"
+    ],
+    [
+      "3D Blend",
+      "SurfaceBlend_MasterMaterial"
+    ],
+    [
+      "Custom Surface",
+      "Custom_MasterMaterial"
+    ]
+  ],
+  "DefaultMaterials": [
+    [
+      "Surface",
+      "Standard_MasterMaterial"
+    ],
+    [
+      "Atlas",
+      "Atlas_MasterMaterial"
+    ],
+    [
+      "3D Asset",
+      "Standard_MasterMaterial"
+    ],
+    [
+      "Decal",
+      "Decal_MasterMaterial"
+    ],
+    [
+      "Scatter 3D",
+      "Standard_MasterMaterial"
+    ],
+    [
+      "Displacement",
+      "Displacement_MasterMaterial"
+    ],
+    [
+      "Imperfection",
+      "Imperfection_MasterMaterial"
+    ],
+    [
+      "Brush Basic",
+      "BrushDecal_MasterMaterial"
+    ],
+    [
+      "3D Plant",
+      "Foliage_MasterMaterial"
+    ],
+    [
+      "Metal",
+      "Standard_MasterMaterial"
+    ],
+    [
+      "Terrain Blend",
+      "Terrain_MasterMaterial"
+    ],
+    [
+      "Surface Blend A",
+      "SurfaceBlend_MasterMaterial"
+    ],
+    [
+      "Surface Blend B",
+      "SurfaceBlend_MasterMaterial"
+    ],
+    [
+      "3D Blend",
+      "SurfaceBlend_MasterMaterial"
+    ],
+    [
+      "Custom Surface",
+      "Custom_MasterMaterial"
+    ]
+  ],
+  "LODSetup": 1,
+  "PBR Workflow": "Metallic",
+  "Surface2Selection": 0,
+  "Tiling": 0.1
+}

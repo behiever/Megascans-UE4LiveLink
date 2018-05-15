@@ -1,0 +1,71 @@
+{
+  "BuildVersion": [
+    [
+      "4.21",
+      "4.20",
+      "4.19",
+      "4.18",
+      "4.17",
+      "4.16",
+      "4.15"
+    ],
+    0
+  ],
+  "MaterialConnections": [
+    "ms_BaseColor",
+    "ms_Roughness",
+    "ms_Normal",
+    "ms_OpacityMask",
+    "ms_WorldPositionOffset",
+    "ms_WorldDisplacement",
+    "ms_TessellationMultiplier",
+    "ms_SubsurfaceColor"
+  ],
+  "MaterialName": "Foliage_MasterMaterial",
+  "MaterialProperties": [
+    [
+      "ShadingModel",
+      6
+    ],
+    [
+      "MaterialDomain",
+      0
+    ],
+    [
+      "BlendMode",
+      1
+    ],
+    [
+      "DecalBlendMode",
+      0
+    ],
+    [
+      "TwoSided",
+      true
+    ],
+    [
+      "DitheredLODTransition",
+      false
+    ],
+    [
+      "bEnableAdaptiveTessellation",
+      false
+    ],
+    [
+      "bEnableCrackFreeDisplacement",
+      true
+    ],
+    [
+      "D3D11TessellationMode",
+      1
+    ],
+    [
+      "MaxDisplacement",
+      0.0
+    ],
+    [
+      "DitherOpacityMask",
+      false
+    ]
+  ]
+}
