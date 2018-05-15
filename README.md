@@ -1,19 +1,27 @@
 # Megascans UE4 Integration - LiveLink
 
+![Screenshot](/resources/HighresScreenshot00001.jpg)
 
-Advanced : Customizing the LiveLink with Python Programming
-
-image alt text
 
 When we started this project having it be open-source was always a top priority. The Megascans LiveLink is written 100% in Python using the **UnrealEnginePython** plugin for Unreal Engine 4, which is developed by :
 
 Roberto De Ioris (20Tab S.r.l. http://20tab.com) with sponsorship from Accademia Italiana Videogiochi (http://aiv01.it), Kite & Lightning (http://kiteandlightning.la/) and GOODTH.INC (https://www.goodthinc.com/).
 
 
-You can find the plugin specific to your engine in the following path: 
-**C:\Program Files\Epic Games\UE_4.XX\Engine\Plugins\UnrealEnginePython**.
+### Installing the Megascans LiveLink
 
-Beside using a default Python 3.6 installation, the LiveLink comes with two other modules: Clipboard and PySide2. PySide2 is our main user interface library.
+![Screenshot](/resources/HighresScreenshot00000.jpg)
+
+This plugin can be automatically installed with the help of Megascans Bridge, but if you want to do things manually
+you should start by creating a folder "UnrealEnginePython" under this path : 
+**C:\Program Files\Epic Games\UE_4.XX\Engine\Plugins\**.
+
+Then put this project's content inside that folder. When installed through the Bridge the ms_Init.py file sets it's a custom
+path for the custom_path variable, otherwise it autodetects that path, which basically corresponds to where the file itself is.
+
+
+
+Beside using a default Python 3.6 installation, the LiveLink comes with two other modules: Clipboard and PySide2. PySide2 is our main user interface library.<br/>
 
 The different Python files in the UnrealEnginePython folder are all called at one point or another by the LiveLink.
 
@@ -29,7 +37,26 @@ The different Python files in the UnrealEnginePython folder are all called at on
 
 You’re probably going to be using ms_main.py most of the time, and to help you in that task, each function in this file has its own documentation tab with an example of how to call it.
 
-The following code shows you how to write a custom asset importer : 
+
+
+### Writing your own asset importer
+
+![Screenshot](/resources/HighresScreenshot00002.jpg)
+
+
+The LiveLink gives you access to a set of useful commands, like this one to import a mesh for instance :
+
+```python
+ms_import_mesh('C:/Meshes/MyMesh.fbx', '/Game/Mesh_Folder')
+```
+Or this one to apply a texture map to a material instance :
+
+```python
+ms_apply_tex2d_to_inst(inst_uobject, '/Game/Textures/bark_Albedo', 'Albedo')
+```
+
+
+You could push this a lot further and write a relatively small file that automatically imports and sets up your assets : 
 
 
 
@@ -84,7 +111,6 @@ for texture in [item for item in ue.get_assets(folderpath_) if item.is_a(Texture
 ue.sync_browser_to_assets(ue.get_assets(folderpath_))
 
 ```
-
 
 
 
