@@ -59,7 +59,7 @@ custom_path = None
 
 print('#'*20 + '-'*10 + 'Python Integration for Megascans Initialized' + '-'*10 + '#'*20)
 
-if not os.path.exists(custom_path):
+if custom_path != None and not os.path.exists(os.path.join(custom_path, 'megascans')):
     custom_path = (r"CUSTOMPROJECTPATH" + "/")
 
 def ms_return_path():
