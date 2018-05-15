@@ -2,8 +2,11 @@
 
 ![Screenshot](/resources/HighresScreenshot00001.jpg)
 
+The [Megascans LiveLink](https://www.megascans.se) for UE4 is a runtime plugin for Unreal Engine 4 that lets you import assets from the Megascans Library with just a few clicks. The plugin works with Megascans Bridge to give you the best library manager/importer/downloader tool for your assets.
 
-When we started this project having it be open-source was always a top priority. The Megascans LiveLink is written 100% in Python using the **UnrealEnginePython** plugin for Unreal Engine 4, which is developed by :
+
+
+The LiveLink is written 100% in Python using the [**UnrealEnginePython**](https://github.com/20tab/UnrealEnginePython) plugin for Unreal Engine 4, which is developed by :
 
 Roberto De Ioris (20Tab S.r.l. http://20tab.com) with sponsorship from Accademia Italiana Videogiochi (http://aiv01.it), Kite & Lightning (http://kiteandlightning.la/) and GOODTH.INC (https://www.goodthinc.com/).
 
@@ -17,11 +20,9 @@ you should start by creating a folder "UnrealEnginePython" under this path :
 **C:\Program Files\Epic Games\UE_4.XX\Engine\Plugins\**.
 
 Then put this project's content inside that folder. When installed through the Bridge the ms_Init.py file sets it's a custom
-path for the custom_path variable, otherwise it autodetects that path, which basically corresponds to where the file itself is.
+path for the custom_path variable, otherwise it autodetects that path, which basically corresponds to where the file itself is.  
+Beside using a default Python 3.6 installation, the LiveLink comes with two other modules: Clipboard and PySide2. PySide2 is our main user interface library.  
 
-
-
-Beside using a default Python 3.6 installation, the LiveLink comes with two other modules: Clipboard and PySide2. PySide2 is our main user interface library.<br/>
 
 The different Python files in the UnrealEnginePython folder are all called at one point or another by the LiveLink.
 
