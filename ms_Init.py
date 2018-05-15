@@ -50,17 +50,15 @@ from unreal_engine.classes import StaticMesh, PyFbxFactory, MaterialExpressionTe
 
 custom_path = None
 
-# We're going to use this method post-launch to get the current installation path.
-
-#path_ = (os.path.dirname(os.path.realpath('ms_Init')))
-#path_ = os.path.split(os.path.split(path_)[0])[0]
-#custom_path = os.path.join(path_, 'Plugins', 'UnrealEnginePython')
-
-
 print('#'*20 + '-'*10 + 'Python Integration for Megascans Initialized' + '-'*10 + '#'*20)
 
-if custom_path != None and not os.path.exists(os.path.join(custom_path, 'megascans')):
-    custom_path = (r"CUSTOMPROJECTPATH" + "/")
+custom_path = (r"CUSTOMPROJECTPATH" + "/")
+
+if not os.path.exists(custom_path):
+    path_ = (os.path.dirname(os.path.realpath('ms_Init')))
+    path_ = os.path.split(os.path.split(path_)[0])[0]
+    custom_path = os.path.join(path_, 'Plugins', 'UnrealEnginePython')
+
 
 def ms_return_path():
     return (custom_path)
