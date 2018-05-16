@@ -15,8 +15,8 @@
     "ms_BaseColor",
     "ms_Roughness",
     "ms_Normal",
-    "ms_WorldDisplacement",
-    "ms_TessellationMultiplier"
+    "ms_TessellationMultiplier",
+    "ms_WorldDisplacement"
   ],
   "MaterialName": "SurfaceBlend_MasterMaterial",
   "MaterialProperties": [
