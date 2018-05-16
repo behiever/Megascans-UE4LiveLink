@@ -1418,7 +1418,7 @@ def ms_base_importer():
                     except:
                         pass
 
-                if obj_['Type'] == '3D Plant' or obj_['Type'] == 'Scatter 3D' and settings_['AutoFoliage'] == 1:
+                if obj_['Type'] in ['3D Plant', 'Scatter 3D'] and settings_['AutoFoliage'] == 1:
                     ms_auto_populate_foliage((content_dir + '/Foliage').replace('//', '/'))
 
                 if settings_['Surface2Selection'] == 1 and obj_['Type'] == 'Surface' or obj_['Type'] == 'Custom Surface':
